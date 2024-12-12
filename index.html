@@ -1,54 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-    <header>
-        <h1>workshop</h1>
-        <nav><ul>
-            <li>
-             <a href="home.html">Abaout</a>   
-            </li>
-            <li>
-                <a href="contact.html">contact</a>
-            </li>
-            <li>
-                <a href="home.html">home</a>
-            </li>
-            <li>
-              <a href="work.html">work</a>
-            </li>
-            <li> 
-                <a href="resume">resume</a>
-            </li>
-        </ul>
-    </nav>
-    <!--carousel-->
 
-    <div></div>
+<body>
+    <header class="header">
+        <div class="divpara">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="home.html">Abaout</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
+                    <li>
+                        <a href="home.html">home</a>
+                    </li>
+                    <li>
+                        <a href="work.html">work</a>
+                    </li>
+                    <li>
+                        <a href="resume">resume</a>
+                    </li>
+                </ul>
+        </div>
+        </nav>
+
+
+        <!--carousel-->
+
+
     </header>
 
-        <h1>Abaout</h1>
-        <!--unordered list=liste non orndonne-->
-        <ul>
-            <li>
-            <p>name 1</p>
-            </li>
-            <li>
-                <P>name2</P>
-            </li>
-            <li>
-                <p>name3</p>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h2>work</h2>
-       <!--ordered liste=liste ordonne-->
-       <ol>
+    <h1>welcome to my page </h1>
+    <!--ordered liste=liste ordonne-->
+    <ol class="para1">
         <li>
             <p>info</p>
         </li>
@@ -58,58 +50,63 @@
         <li>
             <p>logistique</p>
         </li>
-       </ol>
-  <!--TABLEAU-->
-  <TABle>
-<tr>
-    <th>compagny</th>
-    <th>name</th>
-    <th>cuntry</th>
-</tr>
-<td>optivisuel</td>
-<td>boucari sow</td>
-<td>senegal</td>
-<tr>
-    <td>optivisuel</td>
-    <td>omar ndiaye</td>
-    <td>senegal</td>
-</tr>
-<tr>
-    <td>optivisuel</td>
-    <td>issa ndiaye</td>
-    <td>senegal</td>
-</tr>
-  </TABle>
-<!--formulaire-->
-<h2>formulaire</h2>
-<form>
-    <div><label for="name">nom</label>
-        <input type="texte" id="name" /></div>
-    <br /> 
-   <div> <label for="contact">contact</label>
-    <input type="contact" id="contact" /></div>
-    <br/> 
-    <div><label for="email">email</label>
-        <input type="email" id="email" /></div>
-    <br /> 
-    <div><label for="password">password</label>
-        <input type="password" id="password" /></div>
-    <button type="submit">soumettre</button>
-    <button type="submit">supprime</button>
-</form> 
-<!--image-->
-<h2>image</h2>
-<img src="land-rover-range-rover-sport-front-view.webp" height="100px" width="200px"/> 
-<!--video-->
-<h2>video  
-</h2>
-<video controls>
-    <source src="video.mp4" type="video/mp4" />
+    </ol>
+    <!--TABLEAU-->
+    <TABle>
+        <tr>
+            <th >compagny</th>
+            <th>name</th>
+            <th>cuntry</th>
+        </tr>
+        <td class="para4">optivisuel</td>
+        <td class="para4">boucari sow</td>
+        <td class="para4">senegal</td>
+        <tr>
+            <td class="para2">optivisuel</td>
+            <td class="para2">omar ndiaye</td>
+            <td class="para2">senegal</td>
+        </tr>
+        <tr>
+            <td class="para3">optivisuel</td>
+            <td class="para3">issa ndiaye</td>
+            <td class="para3">senegal</td>
+        </tr>
+    </TABle>
+    <!--formulaire-->
+    <h2 class="title-form">formulaire</h2>
+    <form>
+        <div class="champ"><label for="name">nom</label>
+            <input type="texte" id="name" />
+        </div>
+        <br />
+        <div class="champ"> <label for="contact">contact</label>
+            <input type="contact" id="contact" />
+        </div>
+        <br />
+        <div class="champ"><label for="email">email</label>
+            <input type="email" id="email" />
+        </div>
+        <br />
+        <div class="champ"><label for="password">password</label>
+            <input type="password" id="password" />
+        </div>
+        <button type="submit">soumettre</button>
+        <button type="submit">supprime</button>
+    </form>
+    <!--image-->
+    <h2>image</h2>
+    <img src="land-rover-range-rover-sport-front-view.webp" height="100px" width="200px" />
+    <!--video-->
+    <h2>video
+    </h2>
+    <video controls>
+        <source src="video.mp4" type="video/mp4" />
     </video>
     <footer>
-        copyright  gomycode senegal 2024
+        copyright gomycode senegal 2024
         powered by gomycode
     </footer>
 
 </body>
+
 </html>
